@@ -78,8 +78,6 @@ int main() {
     print_data();
     p2 = myalloc(16);
     print_data();
-    p = myalloc(16);
-    printf("%p\n", p);
     
     return 0;
 }
