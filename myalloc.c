@@ -43,11 +43,11 @@ void *myalloc(int size) {
         current = current->next;
     }
 
-    // No suitable block found
+    //no block
     return NULL;
 }
 
-// Function to print the linked list
+
 void print_data(void) {
     struct block *b = head;
 
@@ -72,13 +72,13 @@ int main() {
     void *p;
     void *p2;
 
-    // Test allocations
+
     print_data();
     p = myalloc(64);
     print_data();
     p2 = myalloc(16);
     print_data();
-    // p = myalloc(16);
+    p = myalloc(16);
     printf("%p\n", p);
     
     return 0;
