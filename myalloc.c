@@ -113,7 +113,7 @@ void print_data(void) {
 }
 
 int main() {
-    // example 4 from the canvas page
+    // copied example 4 from the canvas page
     void *p, *q, *r, *s;
 
     p = myalloc(10); print_data();
